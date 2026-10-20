@@ -1,7 +1,7 @@
 language: node_js
 node_js:
   - "18"
-dist: trusty
+dist: jammy
 sudo: false
 
 branches:
