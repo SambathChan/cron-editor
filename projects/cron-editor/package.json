@@ -6,7 +6,7 @@
     "email": "claudiu@fastmail.com",
     "url": "https://claudiuconstantin.com"
   },
-  "version": "2.1.7",
+  "version": "3.0.0",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -24,7 +24,11 @@
     "quartz"
   ],
   "peerDependencies": {
-    "@angular/common": "~7.1.1",
-    "@angular/core": "^7.1.1"
+    "@angular/common": "^16.0.0",
+    "@angular/core": "^16.0.0",
+    "@angular/forms": "^16.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
   }
 }
