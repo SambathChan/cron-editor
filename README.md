@@ -8,7 +8,23 @@ cron-editor
 
 This project contains the library along with an app to ease development and testing. It was generated with [Angular CLI](https://github.com/angular/angular-cli), following the awesome [Ng Library Series](https://blog.angularindepth.com/creating-a-library-in-angular-6-87799552e7e5) written by Todd Palmer.
 
-Requires Node.js 18 (16.14+ also works) and Angular 16. To run the app just run `npm install`, then `npm run start` and go to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Compatibility
+
+| cron-editor | Angular | Node.js |
+| ----------- | ------- | ------- |
+| 3.x         | 16      | 16.14+ / 18 |
+| 2.x         | 7       | -       |
+
+## Development
+
+To run the app just run `npm install`, then `npm run start` and go to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+Other useful scripts:
+
+- `npm run build_lib` builds the library into `dist/cron-editor`
+- `npm run build` builds the library and the demo app
+- `npm test` runs the unit tests
+- `npm run package` builds and packs the library for publishing
 
 ## Demo
 
