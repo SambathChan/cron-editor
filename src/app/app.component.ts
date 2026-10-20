@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CronOptions } from 'projects/cron-editor/src/lib/CronOptions';
+import { CronOptions } from '../../projects/cron-editor/src/lib/CronOptions';
 
 @Component({
   selector: 'app-root',

@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "11.3.0"
+  - "18"
 dist: trusty
 sudo: false
 
@@ -13,11 +13,10 @@ cache:
     - node_modules
 
 install:
-  - yarn
+  - npm ci
 
 script:
-  - yarn lint
-  - yarn run build --base-href https://claudiuconstantin.github.io/cron-editor/
+  - npm run build -- --base-href https://claudiuconstantin.github.io/cron-editor/
 deploy:
   provider: pages
   skip_cleanup: true
